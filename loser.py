@@ -595,7 +595,7 @@ def main_apv():
         time.sleep(6)
         os.system("xdg-open https://wa.me/+1705 771-2406")
         
-    r1=requests.get("https://pastebin.com/raw/GUgkVAWC").text
+    r1=requests.get("https://raw.githubusercontent.com/mrkhan52/loser123/main/loser.txt").text
     if key1 in r1:
         R()
     else:
